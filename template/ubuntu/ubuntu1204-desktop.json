@@ -87,8 +87,11 @@
     "execute_command": "echo 'vagrant' | {{.Vars}} sudo -E -S bash '{{.Path}}'",
     "scripts": [
       "script/base.sh",
-      "script/desktop.sh",
+      "script/apt.sh",
+      "script/desktop_pi.sh",
       "script/vagrant.sh",
+      "script/pi.sh",
+      "script/java.sh",
       "script/sshd.sh",
       "script/vmtools.sh",
       "script/provisioner.sh",
