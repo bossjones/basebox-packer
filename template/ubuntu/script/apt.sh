@@ -7,3 +7,4 @@ apt-get -y install vim
 apt-get -y install dkms
 apt-get -y install nfs-common
 apt-get -y install git
+apt-get -y install openssh-server
