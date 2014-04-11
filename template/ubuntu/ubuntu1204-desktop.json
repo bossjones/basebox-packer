@@ -2,7 +2,7 @@
   "variables": {
     "provisioner": "provisionerless",
     "provisioner_version": "",
-    "iso_url": "http://releases.ubuntu.com/12.04/ubuntu-12.04.4-alternate-amd64.iso",
+    "iso_url": "/Users/malcolm/Downloads/ubuntu-12.04.4-alternate-amd64.iso",
     "iso_checksum": "73a758a2353f21e3016be8135411342a605bccac"
   },
   "builders": [{
@@ -88,9 +88,8 @@
     "scripts": [
       "script/base.sh",
       "script/apt.sh",
-      "script/desktop_pi.sh",
+      "script/desktop.sh",
       "script/vagrant.sh",
-      "script/pi.sh",
       "script/java.sh",
       "script/sshd.sh",
       "script/vmtools.sh",
