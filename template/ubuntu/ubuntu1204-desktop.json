@@ -90,7 +90,6 @@
       "script/apt.sh",
       "script/desktop.sh",
       "script/vagrant.sh",
-      "script/pi.sh",
       "script/java.sh",
       "script/sshd.sh",
       "script/vmtools.sh",
